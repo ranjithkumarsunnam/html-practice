@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Registration Form</title>
+    <link rel="stylesheet" href="event registration.css" />
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <h2 class="form-title">Event Registration Form</h2>
+        <!-------------Attendee Details---------->
+        <h3>Attendee Information</h3>
+        <div class="grid-3">
+          <div>
+            <label for="Attendee">Attendee Name <span>*</span></label>
+            <input
+              type="text"
+              id="Attendee"
+              name="Attendee"
+              placeholder="enter Attendee name"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="age">Age <span>*</span></label>
+            <input
+              type="text"
+              id="age"
+              name="age"
+              placeholder=" Enter your name"
+            />
+          </div>
+          <div>
+            <label>Gender <span>*</span></label>
+            <select>
+              <option>Select</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+          <div>
+            <label>Organisation<span>*</span></label>
+            <input type="text" placeholder="Enter your organisation" />
+          </div>
+          <div>
+            <label>Designation<span>*</span></label>
+            <input type="text" placeholder="Enter Designation" />
+          </div>
+        </div>
+
+        <!-------------Event Details-------------->
+        <h3>Event Details</h3>
+        <div class="grid-3">
+          <div>
+            <label>Email<span>*</span></label>
+            <input
+              type="email"
+              placeholder="Enter Email"
+              name="email"
+              required
+            />
+          </div>
+
+          <div>
+            <label>Contact Number<span>*</span></label>
+            <input
+              type="tel"
+              placeholder="Enter Contact Number"
+              name="contactNumber"
+              required
+            />
+          </div>
+          <div>
+            <label>Event date<span>*</span></label>
+            <input
+              type="date"
+              name="date"
+              placeholder="Date"
+              required
+              max="2026-05-15"
+              min="2023-05-15"
+            />
+          </div>
+          <div>
+            <label>Emergency Contact<span>*</span></label>
+            <input
+              type="text"
+              name="emergencyContact"
+              placeholder="Enter Emergency Contact"
+              required
+            />
+          </div>
+
+          <div>
+            <label>Ticket Type <span>*</span></label>
+            <select>
+              <option>Select</option>
+              <option>General Admin</option>
+              <option>VIP</option>
+            </select>
+          </div>
+        </div>
+        <!---------Travel&Location--------->
+        <h3>Travel & Location</h3>
+        <div class="grid-3">
+          <div>
+            <label>Venue City <span>*</span></label>
+            <input type="text" placeholder="Event City" name="City" />
+          </div>
+          <div>
+            <label>Travelling From<span>*</span></label>
+            <input type="text" placeholder="City" name="travellingFrom" />
+          </div>
+          <div>
+            <label>Accommodation Required<span>*</span></label>
+            <select>
+              <option>Select</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+          <div>
+            <label>Zip Code<span>*</span></label>
+            <input type="text" placeholder="Zip Code" name="zipCode" />
+          </div>
+        </div>
+        <!--------------Session Intrest------>
+        <h3>Session Interest</h3>
+        <div>
+          <label>Session Interest<span>*</span></label>
+          <input type="text" placeholder="Interested" name="SessionInterest" />
+          <span><button type="button" class="add-btn">Add</button></span>
+        </div>
+        <div class="buttons">
+          <span><button type="submit" class="sub-btn">Submit</button></span>
+          <span><button type="reset" class="reset-btn">Reset</button></span>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
