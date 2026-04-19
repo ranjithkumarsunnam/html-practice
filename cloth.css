@@ -1,0 +1,60 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px ;
+    grid-template-areas: "cloth1 cloth2 cloth3"
+    "cloth4 cloth5 cloth6";
+    gap:  20px;
+    padding-bottom: 100px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.cloth1{
+    grid-area: cloth1;
+    background-color: antiquewhite;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/49c1c727614475.55e9bb7d5f104.png);
+
+}
+.cloth2{
+    grid-area: cloth2;
+    background-color: rgb(158, 195, 195);
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/7c9ffd155404855.6353c4ff1e6fc.png);
+}
+.cloth3{
+    grid-area: cloth3;
+    background-color: bisque;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/2597d071363775.5bc31d0db95a0.png);
+}
+.cloth4{
+    grid-area: cloth4;
+    background-color: blueviolet;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/05f41b71908203.5bd5b6278abda.png);
+}
+.cloth5{
+    grid-area: cloth5;
+    background-color: chartreuse;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/2ddb9d71908203.5bd5b6278a246.png);
+}
+.cloth6{
+    grid-area: cloth6;
+    background-color: darkkhaki;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c817d742198219.57c495373cb60.gif);
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 250px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 100px;
+
+}
+.container div{
+    background-size: cover;
+    background-position: center;
+
+}
+body{
+    background-image: url(bg1.jpeg);
+
+}
