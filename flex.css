@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction:column;
+    /*flex-direction: column;*/
+    /*flex-direction: column-reverse; */
+    /*flex-direction:row-reverse*/
+    border: 2px solid grey;
+    height: 550px;
+    width: 700px;
+   /* flex-wrap: wrap;*/
+   /*flex-wrap: wrap-reverse;*/
+   /*flex-flow: row wrap;*/
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+
+   /*justify-content: right;
+   justify-content: left;*/
+  /* flex-wrap: wrap;
+   justify-content:space-between;
+  justify-content: space-around;
+   justify-content: space-evenly;*/
+
+
+
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+
+}
+#c1{
+    background-color: beige;
+
+}
+#c2{
+    background-color: aquamarine;
+    
+}
+#c3{
+    background-color: cadetblue;
+    
+}
