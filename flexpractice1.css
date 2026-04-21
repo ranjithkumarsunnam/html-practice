@@ -1,0 +1,106 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+     background-color: #f2f2f2;
+     margin-left: 50px;
+     margin-right: 50px;
+}
+h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.flex-box{
+    width: 120px;
+    height: 130px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+p{
+    justify-self: center;
+    margin-top:40px;
+    font-size: 30px;
+}
+#box1{ 
+    background-color: rgb(100, 160, 126);
+}
+#box2{
+    background-color: orange;
+}
+#box3{
+    background-color: rgb(45, 198, 195);
+}
+#box4{
+    background-color: greenyellow;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin-top: 50px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    margin: auto;
+
+
+    
+
+}
+.flex{
+    height: 120px;
+    width: 100px;
+    margin-top: 50px;
+}
+#flex1{
+    background-color: seashell;
+    background-image: url(https://i.pinimg.com/736x/2a/4c/60/2a4c60a18ff63c0dfbc3a2166e3f77c6.jpg);
+}
+#flex2{
+    background-color: rgb(204, 110, 44);
+    background-image: url(https://i.pinimg.com/736x/77/15/da/7715daba2e48f9de7701e93617faa821.jpg);
+   
+}
+#flex3{
+    background-color: rgb(139, 153, 212);
+    background-image: url(https://i.pinimg.com/1200x/7c/f9/a4/7cf9a4e798828e604ba5bc7f3ef2bec4.jpg);
+}
+#flex4{
+    background-color: rgb(220, 70, 172);
+    background-image: url(https://i.pinimg.com/1200x/c9/9a/d4/c99ad4132bbcc7728950773cfac57b85.jpg);
+}
+#flex5{
+    background-color: rgb(123, 202, 231);
+    background-image: url(https://i.pinimg.com/1200x/77/c9/66/77c9668e064bc12629d4058c46eff84a.jpg);
+}
+#flex6{
+    background-color: rgb(171, 215, 10);
+    background-image: url(https://i.pinimg.com/1200x/72/d8/65/72d865d0a561e0239f2098ae94fd6982.jpg);
+}
+#flex7{
+    background-color: rgb(116, 211, 14);
+    background-image: url(https://i.pinimg.com/1200x/1a/2c/e5/1a2ce56138a0c630e56da51cecd7426b.jpg);
+}
+#flex8{
+    background-color: rgb(40, 175, 137);
+    background-image: url(https://i.pinimg.com/736x/c6/f5/80/c6f58007faf330222802a6454e9c051d.jpg);
+}
+.container1 div{
+    background-size: cover;
+    background-position: center;
+
+}
+h5{
+    margin-top: 10px;
+    text-align: center;
+
+}
