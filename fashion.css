@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title{
+    background-color: rgb(137, 170, 196);
+    text-align: center;
+    margin: 20px;
+
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 20px;
+
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(1, 15, 18);
+}
+.content div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.content h1{
+    display: flex;
+    justify-content: center;
+
+}
+.trial a{
+    color: rgb(243, 237, 243);
+    text-decoration: none;
+    background-color: rgb(102, 156, 182);
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trial a:hover{
+    background-color: seagreen;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+
+}
+.box{
+    width: 470px;
+    height: 300px;
+    border-radius: 20px;
+}
+#b1{
+    background-color: aquamarine;
+    background-image: url(https://nift.ac.in/sites/default/files/2023-10/Shalisha_02.jpg);
+}
+#b2{
+    background-color: bisque;
+    background-image: url(https://cdn.itm.ac.in/2026/01/How-to-Do-Fashion-Designing-Course.jpeg);
+}
+#b3{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    background-image: url(https://cdn0.weddingwire.in/article/4387/3_2/1280/jpg/107834-untitled-design.webp);
+}
+#x{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#p{
+    margin-right: 20px;
+}
+.box a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+.card div{
+    background-size: cover;
+    background-position:center;
+}
+.footer{
+    background-color: rgb(30, 29, 29);
+    display: flex;
+    margin: 20px;
+    height: 50px;
+}
+.footer p{
+    color: thistle;
+}
+.footerbox{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.fbox{
+    width: 480px;
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+#fbox1{
+    background-color: seagreen;
+    background-image: url(https://images.ctfassets.net/pdf29us7flmy/2rrnDvy3HBpmokU4vW6imJ/564003e7c9311e75ce48bdc7deea1559/Devices_in_Use_Laptop_person_at_coffee_shop_writing_in_notebook_with_laptop_-gettyperp-__2_.jpg?w=720&q=100&fm=jpg);
+
+}
+#fbox2{
+    background-color: rgb(69, 189, 21);
+    background-image: url(https://media.istockphoto.com/id/1481370371/photo/portrait-of-enthusiastic-hispanic-young-woman-working-on-computer-in-a-modern-bright-office.jpg?s=612x612&w=0&k=20&c=8kNce9Ruc9F2KXvnwf0stWQXCwwQTBCrW8efrqhUIa4=);
+
+}
+#fbox3{
+    background-color: rgb(14, 114, 197);
+    background-image: url(https://cottonsjaipur.com/cdn/shop/files/IMG_4607copy_600x.jpg?v=1775833791);
+
+}
+.fbox div{
+    background-position: center;
+    background-size: cover;
+}
+
+
+
