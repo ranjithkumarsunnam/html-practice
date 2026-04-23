@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-color: beige;
+}
+.head{
+    background-color: rgb(123, 116, 129);
+    color: aliceblue;
+    text-align: center;
+    margin: 20px;
+    border-radius: 1rem;
+    padding-top: 25px;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(1, 15, 18);
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+
+}
+.content{
+    padding-left: 20px;
+
+
+}
+.box{
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.box a{
+    text-decoration: none;
+    color: rgb(1, 15, 18);
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    border: 1px solid rgb(178, 159, 159);
+    border-radius: 5px;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+.rightside{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-right: 20px;
+    flex-wrap: wrap;
+}
+.book{
+    width: 200px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#b1{
+    background-color: rgb(102, 156, 182);
+    background-image: url(https://t.infibeam.com/img/book/7488847/92/29/ashokavanam.jpg.74015e9229.999x320x350.jpg);
+
+
+}
+#b2{
+    background-color: rgb(137, 170, 196);
+    background-image: url(https://covers.openlibrary.org/b/id/6599046-L.jpg);
+   
+}
+
+
+#b3{
+    background-color: rgb(192, 192, 83);
+    background-image: url(https://cdn-ikpkcbb.nitrocdn.com/PATlXjipFPVShefRwAhZhjWHvcBfZYEp/assets/images/optimized/rev-0adac2a/ocoy.org/wp-content/uploads/Eagles-flight-front-cover-300.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#b4{
+    background-color: rgb(144, 238, 144);
+    background-image: url(https://www.gutenberg.org/cache/epub/78521/pg78521.cover.medium.jpg);
+}
+#b5{
+    background-color: rgb(255, 182, 193);
+    background-image: url(https://www.gutenberg.org/cache/epub/78520/pg78520.cover.medium.jpg);
+}
+#b6{
+    background-color: rgb(173, 216, 230);
+    background-image: url(https://www.gutenberg.org/cache/epub/45304/pg45304.cover.medium.jpg);
+}
+#b7{
+    background-color: rgb(255, 218, 185);
+    background-image: url(https://www.gutenberg.org/cache/epub/1513/pg1513.cover.medium.jpg);
+}
+#b8{
+    background-color: rgb(211, 211, 211);
+    background-image: url(https://manybooks.net/sites/default/files/styles/220x330sc/public/2026-03/81iVW7uMLUL._SL1500_.jpg?itok=oXmuleC4);
+}
+#b9{
+    background-color: rgb(107, 142, 35);
+    background-image: url(https://manybooks.net/sites/default/files/styles/220x330sc/public/migrated-covers/cover-61221.jpg?itok=qTQnlgXV);
+}
+#b10{
+    background-color: rgb(255, 165, 0);
+    background-image: url(https://manybooks.net/sites/default/files/styles/220x330sc/public/2024-03/51XwEhjwGpL._SY445_SX342_.jpg?itok=Y7_Y-FSr);
+}
+
+.rightside div{
+    background-position: center;
+    background-size: cover;
+}
+.rightside div a{
+    color: rgb(18, 17, 17);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+}
+
+
