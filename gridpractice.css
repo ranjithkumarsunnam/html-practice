@@ -7,27 +7,32 @@
 body{
     background-color: rgb(49, 119, 180);
 }
-.box{
+.container{
     display: grid;
-    grid-template-columns:repeat(4 2fr) ;
-    grid-template-rows:400px 500px 500px 500px;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: 400px 400px 500px;
     grid-template-areas:
     "box1 box2 box3"
     "box4 box5 box6"
-    "box7 box7 box8";
+    "box7 box8 box8";
     margin: 20px;
     gap: 20px;
+    text-align: center;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: 1s;
 }
 .box1{
     grid-area: box1;
     background-color: beige;
 }
 .box2{
-    grid-area: 2;
+    grid-area: box2;
     background-color: beige;
 }
 .box3{
-    grid-area: 3;
+    grid-area: box3;
     background-color: beige;
 }
 .box4{
@@ -43,7 +48,7 @@ body{
     background-color: beige;
 }
 .box7{
-    grid-area: 7;
+    grid-area: box7;
     background-color: beige;
 }
 .box8{
@@ -74,4 +79,16 @@ header li:hover{
     color:blue;
     cursor: pointer;
 
+}
+@keyframes test{
+    0%{
+        background-color: azure;
+
+    }
+    50%{
+        background-color: blanchedalmond;
+    }
+    100%{
+        animation-direction: reverse;
+    }
 }
