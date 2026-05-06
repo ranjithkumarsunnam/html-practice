@@ -17,19 +17,34 @@ body{
     "box7 box8 box8";
     margin: 20px;
     gap: 20px;
-    text-align: center;
-    animation-name: test;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: 1s;
-}
+    text-align: center;}
+
 .box1{
     grid-area: box1;
     background-color: beige;
+
+}
+ .box1:hover,
+.box1:active{
+    transform: scale(1.08);
+    box-shadow: 10px 10px 50px black;
+
+}
+.box2:hover:hover,
+.box2:active{
+    transform: scale(1.08);
+    box-shadow: 10px 10px 50px black;
+
 }
 .box2{
     grid-area: box2;
     background-color: beige;
+}
+.box3:hover:hover,
+.box3:active{
+    transform: scale(1.08);
+    box-shadow: 10px 10px 50px black;
+
 }
 .box3{
     grid-area: box3;
@@ -83,6 +98,7 @@ header li:hover{
 @keyframes test{
     0%{
         background-color: azure;
+        cursor: pointer;
 
     }
     50%{
@@ -92,3 +108,20 @@ header li:hover{
         animation-direction: reverse;
     }
 }
+
+.box4:hover,
+.box5:hover,
+.box6:hover,
+.box7:hover,
+.box8:hover,
+.box4:active,
+.box5:active,
+.box6:active,
+.box7:active,
+.box8:active
+{
+    transform: scale(0.08);
+    box-shadow:  0 0 30px black;
+
+}
+
