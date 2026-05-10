@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: antiquewhite;
+}
+.container{
+    margin:50px 50px 50px 50px;
+}
+.gridbox{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:repeat(1fr,200px);
+    grid-template-rows:200px 200px 200px;
+    grid-template-areas: "1box 1box 1box"
+    "2box 2box 2box"
+    "3box 3box 3box";
+    gap: 20px;
+    border-radius: 90%;
+
+}
+.box1{
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 3;
+      animation-name: ani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box2{
+    background-color: blueviolet;
+      animation-name: ani;
+    animation-duration: 2s;  
+    animation-iteration-count: infinite;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    background-color: rgb(164, 208, 111);
+      animation-name: ani;
+    animation-duration: 1s;
+    
+    animation-iteration-count: infinite;
+}
+.box4{
+    background-color: rgb(195, 127, 102);
+      animation-name: ani;
+    animation-duration: 1.5s;
+  
+    animation-iteration-count: infinite;
+}
+.box5{
+    background-color:darkcyan;
+      animation-name: ani;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes ani{
+    0%{
+        background-color: blue;
+        backdrop-filter: inherit;
+        border-color: black;
+        color: cadetblue;
+
+    }
+    30%{
+        background-color: chocolate;
+        animation-direction: alternate-reverse;
+
+
+    }
+    50%{
+        background-color: darksalmon;
+        animation-timeline: initial;
+
+    }
+    70%{
+        background-color: deepskyblue;
+
+    }
+    100%{
+        background-color: darkslateblue;
+
+    }
+
+}
+
+
