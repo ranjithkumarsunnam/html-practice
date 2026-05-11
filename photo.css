@@ -15,11 +15,12 @@ body{
     display: grid;
     grid-template-columns:repeat(1fr,200px);
     grid-template-rows:200px 200px 200px;
-    grid-template-areas: "1box 1box 1box"
+    grid-template-areas: 
+    "1box 1box 1box"
     "2box 2box 2box"
     "3box 3box 3box";
     gap: 20px;
-    border-radius: 90%;
+    border-radius: 20px;
 
 }
 .box1{
@@ -32,6 +33,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    animation-direction: reverse;
 
 }
 .box2{
@@ -42,6 +44,7 @@ body{
      display: flex;
     justify-content: center;
     align-items: center;
+    border-style:inherit;
 }
 .box3{
     background-color: rgb(164, 208, 111);
@@ -62,6 +65,7 @@ body{
       animation-name: ani;
     animation-duration: 3.5s;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 @keyframes ani{
     0%{
@@ -69,6 +73,9 @@ body{
         backdrop-filter: inherit;
         border-color: black;
         color: cadetblue;
+        border-radius: 50px;
+        motion-rotation:10deg;
+        
 
     }
     30%{
@@ -84,10 +91,12 @@ body{
     }
     70%{
         background-color: deepskyblue;
+        animation-delay: unset;
 
     }
     100%{
         background-color: darkslateblue;
+        animation-delay: 10s;
 
     }
 
