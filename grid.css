@@ -1,34 +1,43 @@
-.parent{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.main{
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows:300px 300px;
-    height: 100vh;
+    grid-template-columns: repeat(1fr,500px);
+    grid-template-rows: 200px;
+    grid-template-areas: 
+    "box1 box1 box1"
+    "box2 box2 box2";
     gap: 20px;
-    /*row-gap: 30px;*/
-   /* column-gap: 30px;*/
-   /*align-items: center;*/
-   /*margin-top: 100px;*/
-   /*justify-items:start;*/
-   /*justify-items: end;*/
-   /*justify-items: center;*/
-   /*justify-items: stretch;*/
-
-
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.box1{
+    background-color: aquamarine;
+}
+.box2{
+    background-color: blueviolet;
+}
+.box2:hover,
+.box2:active{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: brown;
 
 }
-.parent div:nth-child(even){
-    background-color: aqua;
+.box1 h1{
+    display: flex;
+    justify-content: center;
 }
-.parent div:nth-child(odd){
-    background-color: rgb(220, 180, 17);
-}
-/*.parent div{
-    align-items: center;
-}*/
-.child1{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    /*grid-row-start: 1;
-    grid-row-end: 3;*/
+.box1:hover,
+.box1:active{
+    background-color: rgb(13, 160, 55);
+    cursor: pointer;
+    transform: scale(1.1);
 
 }
